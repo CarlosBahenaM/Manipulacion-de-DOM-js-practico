@@ -6,6 +6,9 @@ const btn =document.querySelector('#btnCalcular');
 const pResult =document.querySelector('#pResult-btnCalcular');
 
 
+btn.addEventListener('click', conca);
+// este metodo usa 2 parametros donde ponemos el evento que esperamos recibir y el segundo sera lo que ejecutara al recibir el evento, que en este caso es click... no se usan parebtesis en la funcion cuando se pone como argumento en el metodo
+
 //creamos una funcion donde tomaremos el valor de el input 1 y dos llamandolos desde la variable creada para sumar o concatenar el resultado
 function conca() {
   let concaResult; //creamos una variable que guardara el resultado

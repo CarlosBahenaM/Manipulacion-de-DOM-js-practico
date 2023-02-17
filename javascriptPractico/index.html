@@ -10,10 +10,17 @@
   <h1> Manipulacion del DOM basica - Curso practico de js</h1>
 
   <input id="calculo1" placeholder="Escribe algo aqui">
-  <input  id="calculo2" placeholder="Escribe algo aqui">
+  <input id="calculo2" placeholder="Escribe algo aqui">
   <br>
-  <button id="btnCalcular">Calcular</button>
+  <button onclick="conca()" id="btnCalcular">Calcular</button>
+
+  <!-- Aqui usamos el atributo "onclick para registrar un evento cuando hacemos click" y le añadimos una funcion con sus parentesis que sera lo que se ejecute al hacer click-->
+
+  <p id="pResult-btnCalcular"></p>
   
+  <!-- añadimos un parrafo vacio al que se le asignad¿ra la respuesta con un "innertext" -->
+
+
   <script src="./index.js"></script>
 </body>
 </html>
